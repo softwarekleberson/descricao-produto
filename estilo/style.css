@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda', serif;
+}
+
+:root {
+    --primary-color: #18181B;
+    --secund-color: #F1F2F4;
+    --tertiary-color: rgb(73, 72, 72);
+    --quartenary-color: #d9dadbf8;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-color);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+section {
+    background-color: var(--secund-color);
+    width: 350px;
+    height: 1280px;
+    margin: 0;
+}
+
+p {
+    color: var(--tertiary-color);
+    font-size: 1.0em;
+}
+
+.imagem>img {
+    width: 100%;
+}
+
+.home {
+    margin: 15px;
+    display: flex;
+}
+
+.home>p {
+    margin-right: 6px;
+}
+
+.home>p:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0px 2px;
+}
+
+.name {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.descricao>p {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.destaques>h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lista {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 37px;
+    margin-right: 15px;
+}
+
+.lista>ul>li {
+    margin-bottom: 10px;
+}
+
+.color {
+    width: 90px;
+    height: 80px;
+    padding: 10px;
+    background-color: #d9dadbf8;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.color>select {
+    margin-top: 5px;
+}
+
+.size {
+    width: 90px;
+    height: 80px;
+    padding: 10px;
+    background-color: #d9dadbf8;
+    margin-left: 15px;
+    margin-top: -80px;
+    text-align: center;
+    transform: translateX(110px);
+
+}
+
+.size>select {
+    margin-top: 5px;
+}
+
+.price {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.add-to-cart>button {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.add-to-cart>button {
+    color: var(--secund-color);
+    font-size: 1.2em;
+    height: 60px;
+}
+
+.add-to-cart>button>i {
+    margin-right: 5px;
+}
+
+.wishlist>button {
+    color: var(--primary-color);
+    background-color: var(--secund-color);
+    height: 60px;
+}
+
+.wishlist>button:hover {
+    color: var(--secund-color);
+    background-color: var(--primary-color);
+}
