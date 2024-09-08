@@ -46,7 +46,7 @@ p {
 }
 
 .imagem>img {
-    width: 100%;
+    width: 100%;   
 }
 
 .home {
@@ -101,11 +101,13 @@ p {
     padding: 10px;
     background-color: #d9dadbf8;
     margin-left: 15px;
+    border-radius: 5px;
     text-align: center;
 }
 
 .color>select {
     margin-top: 5px;
+    border-radius: 5px;
 }
 
 .size {
@@ -116,12 +118,13 @@ p {
     margin-left: 15px;
     margin-top: -80px;
     text-align: center;
+    border-radius: 5px;
     transform: translateX(110px);
-
 }
 
 .size>select {
     margin-top: 5px;
+    border-radius: 5px;
 }
 
 .price {
@@ -157,6 +160,7 @@ p {
     color: var(--primary-color);
     background-color: var(--secund-color);
     height: 60px;
+    border-radius: 5px;
 }
 
 .wishlist>button:hover {
