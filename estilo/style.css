@@ -30,6 +30,7 @@ main {
     align-items: center;
     width: auto;
     height: auto;
+    margin: auto;
 }
 
 section {
