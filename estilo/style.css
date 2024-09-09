@@ -49,7 +49,7 @@ p {
 
 .imagem>img {
     width: 100%;
-    height: 100%;   
+    height: 100%;
 }
 
 .home {
@@ -137,36 +137,15 @@ p {
 }
 
 .add-to-cart {
-    margin-left: 10px;
-    margin-right: 15px;
-    padding: 10px;
+    display: block;
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    border-radius: 10px;
 }
 
-.add-to-cart>button {
-    width: 100%;
-    height: 35px;
-    border-radius: 5px;
+.add-to-cart>p {
     background-color: var(--primary-color);
-}
-
-.add-to-cart>button {
     color: var(--secund-color);
-    font-size: 1.2em;
-    height: 60px;
-}
-
-.add-to-cart>button>i {
-    margin-right: 5px;
-}
-
-.wishlist>button {
-    color: var(--primary-color);
-    background-color: var(--secund-color);
-    height: 60px;
-    border-radius: 5px;
-}
-
-.wishlist>button:hover {
-    color: var(--secund-color);
-    background-color: var(--primary-color);
 }
