@@ -2,110 +2,109 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap');
 
-@media (min-width: 600px) and (max-width: 1024px) {
+/*Pc e telas maiores*/
+@media (min-width: 1024px) {
 
     section {
         background-color: var(--secund-color);
-        margin: 18px;
+        margin: 16px;
     }
 
     .imagem {
-        height: 360px;
+        height: 860px;
+        margin: 48px;
     }
 
     .imagem>img {
-        width: 90%;
-        margin: 40px;
+        width: 50%;
         height: 100%;
     }
 
     .home {
-        margin-top: 85px;
-        margin-left: 50px;
-        display: flex;
+        margin-left: 720px;
+        margin-right: 5px;
+        transform: translateY(-900px);
         font-size: 1.8em;
     }
 
     .name {
         margin-top: 25px;
-        margin-bottom: 10px;
-        margin-left: 50px;
+        margin-bottom: 5px;
+        margin-left: 720px;
         font-size: 1.8em;
+        transform: translateY(-890px);
     }
 
     .descricao>p {
         margin-top: 25px;
-        margin-bottom: 40px;
-        margin-left: 50px;
-        margin-right: 15px;
+        margin-bottom: 10px;
+        margin-left: 720px;
         font-size: 1.8em;
+        transform: translateY(-890px);
     }
 
     .destaques>h3 {
         margin-top: 25px;
         margin-bottom: 20px;
-        margin-left: 50px;
+        margin-left: 720px;
         margin-right: 15px;
         font-size: 1.8em;
+        transform: translateY(-880px);
     }
 
     .lista {
         margin-top: 25px;
         margin-bottom: 70px;
-        margin-left: 80px;
+        margin-left: 750px;
         margin-right: 15px;
         font-size: 1.8em;
-    }
-
-    .lista>ul>li {
-        margin-bottom: 10px;
+        transform: translateY(-890px);
     }
 
     .mescla {
-        width: 75%;
-        height: 130px;
+        width: 38%;
+        height: 90px;
         background-color: var(--quartenary-color);
         margin-bottom: 80px;
-        margin-left: 50px;
+        margin-left: 720px;
         border-radius: 8px;
+        transform: translateY(-950px);
     }
 
     .color {
         margin-left: 20px;
-        padding-top: 30px;
+        padding-top: 10px;
         font-size: 1.5em;
     }
 
     .size {
         margin-left: 60px;
-        padding-top: 30px;
+        padding-top: 10px;
         font-size: 1.5em;
     }
 
     .price {
         margin-left: 320px;
-        transform: translateY(-60px);
-        font-size: 1.4em;
+        transform: translateY(-70px);
+        font-size: 1.0em;
     }
 
     select {
         text-align: center;
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     .add-to-cart {
-        width: 30%;
-        height: 70px;
-        margin-left: 60px;
+        width: 15%;
+        height: 60px;
+        margin-left: 720px;
         background-color: var(--primary-color);
+        transform: translateY(-1015px);
     }
 
     .wishlist {
-        margin-left: 390px;
-        transform: translateY(-85px);
-    }
-
-    button > p {
-        font-size: 1.3em;
+        width: 18%;
+        margin-left: 940px;
+        transform: translateY(-1090px);
     }
 }
