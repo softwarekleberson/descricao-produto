@@ -97,14 +97,15 @@
     }
 
     .add-to-cart {
-        width: 35%;
+        width: 30%;
         height: 80px;
         margin-left: 60px;
         background-color: var(--primary-color);
     }
 
     .wishlist {
-        margin-left: 450px;
+        margin-left: 390px;
+        width: 39%;
         transform: translateY(-95px);
     }
 
