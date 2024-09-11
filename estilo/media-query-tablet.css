@@ -65,10 +65,10 @@
     }
 
     .mescla {
-        width: 75%;
+        width: 90%;
         height: 130px;
         background-color: var(--quartenary-color);
-        margin-bottom: 80px;
+        margin-bottom: 60px;
         margin-left: 50px;
         border-radius: 8px;
     }
@@ -98,18 +98,19 @@
 
     .add-to-cart {
         width: 35%;
-        height: 70px;
+        height: 80px;
         margin-left: 60px;
         background-color: var(--primary-color);
     }
 
     .wishlist {
-        margin-left: 320px;
-        transform: translateY(-85px);
+        margin-left: 450px;
+        transform: translateY(-95px);
     }
 
     button>p {
-        font-size: 1.3em;
+        font-size: 1.4em;
+        padding: 5px;
     }
 
 }
